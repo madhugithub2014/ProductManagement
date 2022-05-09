@@ -1,0 +1,13 @@
+endpoints:
+  enabled:false
+  health:
+    enabled:true
+    sensitive: false
+
+spring:
+  application:
+    name: product-management
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
